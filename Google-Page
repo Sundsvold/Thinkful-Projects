@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Google</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="Google_Stylesheet.css">
+	<div class="navbar">
+		<ul>
+			<li><a href="#">+You</a></li>
+			<li><a href="#" class="active">Search</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#">Mail</a></li>
+			<li><a href="#">Drive</a></li>
+			<li><a href="#">Calendar</a></li>
+			<li><a href="#">Sites</a></li>
+			<li><a href="#">Groups</a></li>
+			<li><a href="#">More</a></li>
+		</ul>
+</head>
+<body>
+		<ul class="right-nav">
+		<li><a href="#">me@gmail.com</a></li>
+		</ul>
+		<div class="sign_in">
+		     <button type="submit">Sign in</button>
+		</div>
+	</div> 
+	<div class="container">
+	<div class="search-form">
+	<img src="Google_Logo2.png" alt="Google Logo" width="270" height="90" padding: 150px 0px 150px 0px; >
+	<center>
+		 <TABLE cellSpacing=0 cellPadding=10 border=0>
+		<FORM method=GET action="http://www.google.com/search">		
+		</td></tr></TABLE>
+		</FORM>
+	</center>
+		<form class="box center" action="">
+			<input type="text" size=100 max-length=255><br>
+			<input type="submit" value="Google Search">
+			<input type="submit" value="I'm Feeling Lucky">
+		</form>
+		</div>
+		</div>
+	<footer class = "bottom_navbar" style= "display: block; height: 20px;" padding: 150px auto 150px auto;>
+	    <ul class = "bottom_navbar">
+	      <li> <a href="#">About Google </a></li>
+	      <li> <a href="#">+Google </a></li>
+	      <li> <a href="#">Privacy & Terms </a></li>     
+	      <li> <a href="#">Business Solutions </a></li>
+	      <li> <a href="/intl/en/ads">Advertising Programs </a></li>
+		</ul>
+	   </footer>
+</body>
+</html>
